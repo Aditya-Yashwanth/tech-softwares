@@ -23,41 +23,20 @@ body {
     font-size: 24px;
 }
 
-.nav-links ul,.nav-links li{
-    margin:0;
-    padding:0
-}
-
-.nav-links ul {
-    background:gray;
-    list-style:none;
-    width:100%;
+.nav-links {
+    list-style: none;
+    display: flex;
 }
 
 .nav-links li {
-   float:left;
-   position:relative;
-    width:auto;
+    margin: 0 15px;
 }
 
 .nav-links a {
     text-decoration: none;
-    display:block;
     color: #fff;
-    transistion:all 0.25 ease;
 }
-.nav-links:hover a
-{
-    background:#f0f0f0;
-}
-#submenu{
-    left:0;
-    opacity:0;
-    position:absolute:
-    top:35px;
-    visibility:hidden;
-    z-index:1;
-}
+
 .menu-icon {
     display: none;
     font-size: 24px;
