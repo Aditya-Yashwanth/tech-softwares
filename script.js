@@ -15,7 +15,7 @@ document.addEventListener("DOMContentLoaded", function () {
             scrollToTopButton.style.display = "block";
         } else {
             scrollToTopButton.style.display = "none";
-        }
-    });
+        }
+    });
 
 });
