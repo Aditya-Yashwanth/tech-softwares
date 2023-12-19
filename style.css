@@ -188,7 +188,15 @@ img{
         }
 
 
-.class {
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: screen;
+    flex-direction: column;
+    margin: 50px;
+}
+.class{
     font: 22px Arial;
     display: inline-block;
     padding: 1em 2em;
@@ -198,9 +206,15 @@ img{
     background: linear-gradient(to left, salmon 50%, lightblue 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
-    width: 500px;
+    width: 200px;
+    margin: 10px;
 }
 .class:hover {
     background-position: left;
 }
 
+.box{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
