@@ -188,7 +188,7 @@ img{
         }
 
 
-.action {
+div {
     font: 22px Arial;
     display: inline-block;
     padding: 1em 2em;
@@ -200,7 +200,7 @@ img{
     transition: .5s ease-out;
     width: 500px;
 }
-.action:hover {
+div :hover {
     background-position: left;
 }
 
