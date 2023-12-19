@@ -187,3 +187,20 @@ img{
             font-size: 24px;
         }
 
+
+.action {
+    font: 22px Arial;
+    display: inline-block;
+    padding: 1em 2em;
+    text-align: center;
+    color: white;
+    background: red;
+    background: linear-gradient(to left, salmon 50%, lightblue 50%) right;
+    background-size: 200%;
+    transition: .5s ease-out;
+    width: 500px;
+}
+action:hover {
+    background-position: left;
+}
+
