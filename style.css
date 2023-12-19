@@ -195,7 +195,7 @@ img{
     height: screen;
     flex-direction: column;
     margin: 50px;
-    gap:23px;
+    gap:25px;
 }
 .class{
     font: 22px Arial;
