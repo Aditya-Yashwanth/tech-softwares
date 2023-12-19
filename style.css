@@ -200,7 +200,7 @@ img{
     transition: .5s ease-out;
     width: 500px;
 }
-action:hover {
+.action:hover {
     background-position: left;
 }
 
