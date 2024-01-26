@@ -78,7 +78,7 @@ img{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    gap:25px:
+    gap:25px
 }
 
 
@@ -95,12 +95,12 @@ img{
   left: 0;
   width: 82%;
   height: 78%;
-  background: rgba(0, 0, 0, 0.5); 
-  color: #fff; 
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
   text-align: center;
   padding: 20px;
-  opacity: 0; 
-  transition: opacity 0.3s; 
+  opacity: 0;
+  transition: opacity 0.3s;
 }
 
 .image-container:hover .overlay-content {
@@ -144,7 +144,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
 }
 
 .image-row img {
@@ -163,7 +163,7 @@ img{
 }
 
 .cont {
-    margin-left: 0; 
+    margin-left: 0;
     flex-direction: column;
     align-items: center;
 }
