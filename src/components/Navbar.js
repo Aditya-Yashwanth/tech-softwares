@@ -10,7 +10,6 @@ import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
 import Button from "@mui/material/Button";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 
 const pages = ["services", "domains", "about", "contact", "careers"];
 const Navbar = () => {
@@ -102,8 +101,9 @@ const Navbar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              {pages.map((page) => (
+              {pages.map((page, index) => (
                 <ScrollLink
+                  key={index}
                   to={page}
                   spy={true}
                   smooth={true}
@@ -127,8 +127,9 @@ const Navbar = () => {
               justifyContent: "end",
             }}
           >
-            {pages.map((page) => (
+            {pages.map((page, index) => (
               <ScrollLink
+                key={index}
                 to={page}
                 spy={true}
                 smooth={true}
